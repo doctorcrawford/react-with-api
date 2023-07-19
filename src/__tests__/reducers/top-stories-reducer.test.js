@@ -33,7 +33,7 @@ describe('topStoriesReducer', () => {
     });
   });
 
-  test('failint to get topStores should change isLoaded to true and add an error message', () => {
+  test('failing to get topStories should change isLoaded to true and add an error message', () => {
     const error = 'An error';
     action = {
       type: c.GET_TOP_STORIES_FAILURE,
